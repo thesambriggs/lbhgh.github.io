@@ -1,5 +1,5 @@
 function more_random()
-{var a=document.getElementById("output"),
+{var a=document.getElementById("output").innerHTML,
 b=parseInt(a.rows);
 if(b<1)b=1;
 b=generate_list("main",b);
